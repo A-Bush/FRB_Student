@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>BG-clip</title>
+    <meta charset="utf-8" />
+    <!--
+
+            background-clip
+            определяет область в элементе, для которой задается фон.
+            Эффект будет заметен, если использовать прозрачную или пунктирную границу рамки
+            [
+            border-box	- Фон заполняет все пространство элемента включая рамку
+            padding-box	- Фон заполняет все пространство элемента до рамки
+            content-box	Фон охватывает только содержимое элемента
+            ]
+    -->
+<style>
+    div {
+        background-color: pink;
+        -moz-background-clip: border-box;
+        -webkit-background-clip: border-box;
+        background-clip: border-box;
+        outline:5px red dashed;
+        outline-offset:15px;
+    }
+</style>
+</head>
+<body>
+    <div style="padding:30px;margin:40px auto 0; border:7px dotted green; width:500px; height:200px;">Lalala</div>
+</body>
+</html>
