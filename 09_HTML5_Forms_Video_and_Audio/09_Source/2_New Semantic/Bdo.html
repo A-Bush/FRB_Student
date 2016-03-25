@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag bdo</title>
+    <meta charset="utf-8" />
+    <!--
+            <bdo>  - определяет направление текста - слева направо и наоборот. Используется обычно для языков, где текст читается справа налево.
+
+            Атрибуты
+            dir:
+            Обязательный параметр. Определяет направление текста внутри элемента <bdo>, может принимать одно из двух значений:
+    ltr - направление текста слева направо
+    rtl - направление текста справа налево
+    -->
+    <style>
+        div {
+            background: gray;
+            color: #2dd899;
+            font-size: 18px;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        p {
+            margin: 5px 0px;
+            border: 2px dotted #C6CE2D;
+            font-style: italic;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <p>
+            <bdo dir="rtl">Some example TEXT111 </bdo>
+        </p>
+        <p>
+            <bdo dir="ltr">Some example TEXT222 </bdo>
+        </p>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Tag Figure</title>
+    <meta charset="utf-8" />
+    <!--
+            <figure> является блочным элементом, его содержимое представляет собой самостоятельный контент, который связан с основным содержимым страницы.
+            Обычно он содержит картинки, диограммы, фотографии, фрагменты кода или схемы, которые упоминаются в основном тексте,
+            но которые без труда можно перенести на другую страницу или в приложение без ущерба для основного контента.
+    -->
+    <!--
+            <figure> может содержать внутри себя элемент
+            <figcaption>, который позволяет добавить подпись к контенту, он должен располагаться в качестве первого либо последнего дочернего элемента.-->
+    <style>
+        div {
+            box-shadow: 0px 0px 5px rgb(237, 121, 23);
+            float: left;
+        }
+
+        img {
+            height: 300px;
+        }
+
+        figure {
+            box-shadow: 0px 0px 15px rgb(110, 217, 36);
+        }
+
+        figcaption {
+            font-style: italic;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <figure>
+            <img src="http://orig03.deviantart.net/2cd5/f/2009/289/0/b/hello_girls__dw_wallpaper_by_neerai.jpg" />
+        </figure>
+        <figcaption>Some text here</figcaption>
+    </div>
+</body>
+</html>
